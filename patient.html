@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Patient Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="dashboard-header">
+<h1>Patient Dashboard</h1>
+<a class="back-btn" href="index.html">Home</a>
+</header>
+<div class="search-wrapper">
+    <input 
+        type="text" 
+        id="searchInput" 
+        class="search-input"
+        placeholder="Search by Doctor, Hospital or Specialization"
+    >
+    <button class="search-btn" onclick="searchDoctors()">Search</button>
+</div>
+<div class="dashboard-content">
+<div id="doctorsList" class="doctors-container"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+

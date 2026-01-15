@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Government Hospital Doctor Availability Portal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+    <img src="WhatsApp Image 2026-01-15 at 7.48.14 PM.jpeg" class="logo">
+    <h1 class="title">Government Hospital Doctor Availability Portal</h1>
+    <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="patient.html">Patient</a>
+        <a href="doctor.html">Doctor</a>
+        <a href="register.html">Register</a>
+    </nav>
+</header>
+<div class="home-search">
+    <input 
+        type="text" 
+        id="searchInput"
+        class="home-search-input"
+        placeholder="Doctor / Hospital / Specialization"
+    >
+    <button class="home-search-btn" onclick="searchDoctors()">Search</button>
+</div>
+<section class="hero">
+    <h2>Check Doctor Availability Easily</h2>
+    <p>Search doctors, hospitals and OPD timings</p>
+    <div class="buttons">
+        <button class="btn patient" onclick="location.href='login.html'">Login</button>
+        <button class="btn register" onclick="location.href='register.html'">Register</button>
+    </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
